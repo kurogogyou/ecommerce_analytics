@@ -1,8 +1,11 @@
+### Postgres connection wrapper
+# Script used to connect to database and store configuration details.
+
 import psycopg2
 
 # Database Configuration
 DB_CONFIG = {
-    "dbname": "postgres",
+    "dbname": "ecommerce",
     "user": "postgres",
     "password": "Pa$$1234",
     "port": "5432",
